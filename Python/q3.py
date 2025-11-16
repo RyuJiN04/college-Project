@@ -1,9 +1,7 @@
 #WAP to convert celsius to fahrenhiet
 
-# Taking input to convert celsius :
-celsius = int(input("Enter temperature in Celsius : "))
-
-# Formula to convert into fahrenheit :
-fahrenhiet = ((celsius*9/5) + 32)
-
-print(fahrenhiet)
+# Loop to iterate value of celsius :
+for celsius in range(101):          # Will iterate value of celsius from 0 to 100.
+    # Formula to convert into fahrenheit :
+    fahrenhiet = ((celsius*9/5) + 32)
+    print(f"{celsius} = {fahrenhiet}")
