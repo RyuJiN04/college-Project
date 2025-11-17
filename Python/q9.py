@@ -11,6 +11,6 @@ def palindrome(insert_text):
         print(f"The string {string } is a palindrome.")
 
     else:
-        print("The string {string} is not a palindrome.")    
+        print(f"The string {string} is not a palindrome.")    
 
 palindrome(insert_text)        

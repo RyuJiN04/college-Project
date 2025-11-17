@@ -1,5 +1,4 @@
-# WAP to desplay union of two list :
-
+# Write a Program to find the union of two lists.
 
 # Defining two empty lists for storing data :
 list1 = []
@@ -20,5 +19,4 @@ set2 = set(list2)
 
 # Printing union of two lists : 
 union = set1.union(set2)
-list = list(union)
-print(f"The union of the lists is : {list}")
+list3 = list
