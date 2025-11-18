@@ -1,11 +1,11 @@
-# WAP to find out leap year :
-
-# Taking input of year for checking : 
-year = int(input("Enter the year : "))
-
-# Checking if leap year or not :
-if( year%4 == 0 ):
-    print(f"The year {year} is leap year. ")
-
-else:
-    print(f"The year {year} is not a leap year")
+year = int(input("Enter a year: ")) 
+if (year % 4 == 0): 
+    if (year % 100 == 0): 
+        if (year % 400 == 0): 
+            print(year, "is a leap year") 
+        else: 
+            print(year, "is not a leap year") 
+    else: 
+        print(year, "is a leap year") 
+else: 
+    print(year, "is not a leap year")
